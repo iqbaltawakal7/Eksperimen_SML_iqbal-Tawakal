@@ -25,7 +25,6 @@ jobs:
         id: get_run_id
         run: |
           cd Workflow-CI/MLProject
-          # Perintah di bawah ini mengekstrak ID run mlflow yang asli dari berkas pelatihan Anda
           RUN_ID=$(python -c "import mlflow; print(mlflow.search_runs().loc[0, 'run_id'])" 2>/dev/null || echo "dummy_run_id")
           echo "run_id=$RUN_ID" >> $GITHUB_OUTPUT
 
