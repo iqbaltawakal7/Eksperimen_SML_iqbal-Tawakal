@@ -1,0 +1,104 @@
+artifact_path: /Users/tawakal/Desktop/Eksperimen_SML_Nama-siswa/Membangun_model/mlruns/0/models/m-e8286a96a10e4f8db647f2423581a22b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.14.0
+model_id: m-e8286a96a10e4f8db647f2423581a22b
+model_size_bytes: 583811
+model_uuid: m-e8286a96a10e4f8db647f2423581a22b
+prompts: null
+run_id: 6afd22b688ed4f188b54a19801a11b43
+signature:
+  inputs: '[{"type": "double", "name": "ID", "required": true}, {"type": "double",
+    "name": "Umur", "required": true}, {"type": "double", "name": "Nilai", "required":
+    true}, {"type": "double", "name": "UTS", "required": true}, {"type": "boolean",
+    "name": "Nama_Adit", "required": true}, {"type": "boolean", "name": "Nama_Agung",
+    "required": true}, {"type": "boolean", "name": "Nama_Agus", "required": true},
+    {"type": "boolean", "name": "Nama_Aji", "required": true}, {"type": "boolean",
+    "name": "Nama_Andi", "required": true}, {"type": "boolean", "name": "Nama_Andy",
+    "required": true}, {"type": "boolean", "name": "Nama_Ani", "required": true},
+    {"type": "boolean", "name": "Nama_Ari", "required": true}, {"type": "boolean",
+    "name": "Nama_Arif", "required": true}, {"type": "boolean", "name": "Nama_Asih",
+    "required": true}, {"type": "boolean", "name": "Nama_Ayi", "required": true},
+    {"type": "boolean", "name": "Nama_Ayu", "required": true}, {"type": "boolean",
+    "name": "Nama_Bagus", "required": true}, {"type": "boolean", "name": "Nama_Bayu",
+    "required": true}, {"type": "boolean", "name": "Nama_Billy", "required": true},
+    {"type": "boolean", "name": "Nama_Budi", "required": true}, {"type": "boolean",
+    "name": "Nama_Dani", "required": true}, {"type": "boolean", "name": "Nama_Deka",
+    "required": true}, {"type": "boolean", "name": "Nama_Dewi", "required": true},
+    {"type": "boolean", "name": "Nama_Dian", "required": true}, {"type": "boolean",
+    "name": "Nama_Dika", "required": true}, {"type": "boolean", "name": "Nama_Dimas",
+    "required": true}, {"type": "boolean", "name": "Nama_Dina", "required": true},
+    {"type": "boolean", "name": "Nama_Dino", "required": true}, {"type": "boolean",
+    "name": "Nama_Dita", "required": true}, {"type": "boolean", "name": "Nama_Dodi",
+    "required": true}, {"type": "boolean", "name": "Nama_Doni", "required": true},
+    {"type": "boolean", "name": "Nama_Edo", "required": true}, {"type": "boolean",
+    "name": "Nama_Eka", "required": true}, {"type": "boolean", "name": "Nama_Ela",
+    "required": true}, {"type": "boolean", "name": "Nama_Erna", "required": true},
+    {"type": "boolean", "name": "Nama_Eva", "required": true}, {"type": "boolean",
+    "name": "Nama_Evi", "required": true}, {"type": "boolean", "name": "Nama_Fahmi",
+    "required": true}, {"type": "boolean", "name": "Nama_Fajar", "required": true},
+    {"type": "boolean", "name": "Nama_Fandi", "required": true}, {"type": "boolean",
+    "name": "Nama_Farid", "required": true}, {"type": "boolean", "name": "Nama_Febi",
+    "required": true}, {"type": "boolean", "name": "Nama_Fery", "required": true},
+    {"type": "boolean", "name": "Nama_Gito", "required": true}, {"type": "boolean",
+    "name": "Nama_Hadi", "required": true}, {"type": "boolean", "name": "Nama_Hafiz",
+    "required": true}, {"type": "boolean", "name": "Nama_Indah", "required": true},
+    {"type": "boolean", "name": "Nama_Irma", "required": true}, {"type": "boolean",
+    "name": "Nama_Iwan", "required": true}, {"type": "boolean", "name": "Nama_Joko",
+    "required": true}, {"type": "boolean", "name": "Nama_Lia", "required": true},
+    {"type": "boolean", "name": "Nama_Lina", "required": true}, {"type": "boolean",
+    "name": "Nama_Maya", "required": true}, {"type": "boolean", "name": "Nama_Mega",
+    "required": true}, {"type": "boolean", "name": "Nama_Merry", "required": true},
+    {"type": "boolean", "name": "Nama_Nia", "required": true}, {"type": "boolean",
+    "name": "Nama_Nina", "required": true}, {"type": "boolean", "name": "Nama_Nisa",
+    "required": true}, {"type": "boolean", "name": "Nama_Nova", "required": true},
+    {"type": "boolean", "name": "Nama_Rama", "required": true}, {"type": "boolean",
+    "name": "Nama_Rara", "required": true}, {"type": "boolean", "name": "Nama_Reza",
+    "required": true}, {"type": "boolean", "name": "Nama_Ria", "required": true},
+    {"type": "boolean", "name": "Nama_Rian", "required": true}, {"type": "boolean",
+    "name": "Nama_Ricky", "required": true}, {"type": "boolean", "name": "Nama_Rika",
+    "required": true}, {"type": "boolean", "name": "Nama_Riko", "required": true},
+    {"type": "boolean", "name": "Nama_Rina", "required": true}, {"type": "boolean",
+    "name": "Nama_Rini", "required": true}, {"type": "boolean", "name": "Nama_Rio",
+    "required": true}, {"type": "boolean", "name": "Nama_Rizal", "required": true},
+    {"type": "boolean", "name": "Nama_Rony", "required": true}, {"type": "boolean",
+    "name": "Nama_Roy", "required": true}, {"type": "boolean", "name": "Nama_Rudi",
+    "required": true}, {"type": "boolean", "name": "Nama_Ryan", "required": true},
+    {"type": "boolean", "name": "Nama_Sari", "required": true}, {"type": "boolean",
+    "name": "Nama_Sinta", "required": true}, {"type": "boolean", "name": "Nama_Siska",
+    "required": true}, {"type": "boolean", "name": "Nama_Siti", "required": true},
+    {"type": "boolean", "name": "Nama_Surya", "required": true}, {"type": "boolean",
+    "name": "Nama_Tari", "required": true}, {"type": "boolean", "name": "Nama_Tia",
+    "required": true}, {"type": "boolean", "name": "Nama_Tika", "required": true},
+    {"type": "boolean", "name": "Nama_Tina", "required": true}, {"type": "boolean",
+    "name": "Nama_Tino", "required": true}, {"type": "boolean", "name": "Nama_Tyas",
+    "required": true}, {"type": "boolean", "name": "Nama_Umi", "required": true},
+    {"type": "boolean", "name": "Nama_Vera", "required": true}, {"type": "boolean",
+    "name": "Nama_Wahyu", "required": true}, {"type": "boolean", "name": "Nama_Wati",
+    "required": true}, {"type": "boolean", "name": "Nama_Wira", "required": true},
+    {"type": "boolean", "name": "Nama_Yani", "required": true}, {"type": "boolean",
+    "name": "Nama_Yanto", "required": true}, {"type": "boolean", "name": "Nama_Yoga",
+    "required": true}, {"type": "boolean", "name": "Nama_Yudi", "required": true},
+    {"type": "boolean", "name": "Nama_Yuli", "required": true}, {"type": "boolean",
+    "name": "Gender_Perempuan", "required": true}, {"type": "boolean", "name": "Matkul_Fisika",
+    "required": true}, {"type": "boolean", "name": "Matkul_Kimia", "required": true},
+    {"type": "boolean", "name": "Matkul_Matematika", "required": true}, {"type": "boolean",
+    "name": "Tanggal_9/8/2023", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-07-03 19:08:52.318228'
